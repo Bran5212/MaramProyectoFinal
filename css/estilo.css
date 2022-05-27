@@ -71,6 +71,9 @@
     text-decoration: none;
     list-style: none;
     gap: 10px; }
+    .main__contact .contact__contact li .gmaps {
+      width: 50vw;
+      height: 50vw; }
   .main__contact .consulta_text {
     display: flex;
     flex-direction: column;
