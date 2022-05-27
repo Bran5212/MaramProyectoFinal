@@ -1,0 +1,67 @@
+@media screen and (max-width: 840px){
+    .body{
+        .Header__container{
+            width: 100%;
+            margin-top: 1rem;
+            .header__nav{
+                ul{
+                    li{
+                        display: block;
+                        a{
+                            display: block;
+                            padding: 0.5rem 0rem;
+                            transition: all 0.4s linear;
+                            border-radius: 5px;
+                            &:hover{
+                                background: rgba(25,135,84,0.5);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .divmain2, .divmain3{
+            display: none;
+        }
+        .main__img{
+            flex-direction: column;
+        }
+        .main__contact{
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }    
+    }
+}
+
+@media screen and (max-width: 625px){
+    .body{
+        #products {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: 
+            "product1 product2"
+            "product3 product4"
+            "product5 product6";
+            gap: 2vw;
+            margin-top: 5vw;
+        }
+        .return {
+            margin-bottom: 5vw;
+        }  
+    }
+}
+
+@media screen and (max-width: 838px){
+    .body{
+        .nosotro{
+            display: flex;
+            flex-direction: column;
+            .nosotros1, .nosotros2{
+                font-size: 20px;
+                letter-spacing: normal;
+            }
+        }
+    }
+}

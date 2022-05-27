@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Ubuntu&display=swap');
+
+// Map
+$map: (
+    color1: rgba(0, 128, 0, 0.616),
+    color2: rgba(47, 77, 41, 0.986),
+    color3: rgba(25,135,84, 0.5),
+);
+
+// Mixins
+@mixin tamaño () {
+    width: 450px;
+    height: 350px;
+}
+
+@import "header.scss";
+@import "footer.scss";
+@import "contacto.scss";
+@import "index.scss";
+@import "nosotros.scss";
+@import "mediaqueries.scss";
+@import "productos.scss";
+@import "privacidad.scss";

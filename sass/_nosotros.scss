@@ -1,0 +1,34 @@
+.nosomain{
+    max-width: 200rem;
+    margin: auto;
+    .nosotro{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+        column-gap: 1vw;
+    }
+    .nosotros_1{
+        width: 100%;
+        height: 99%;
+    }
+    .nosotros_2{
+        width: 100%;
+        height: 99%;
+    }
+    .nosotros1{
+        background-color: rgba(25,135,84,0.5);
+        display: flex;
+        letter-spacing: 3px;
+        align-items: center;
+        text-align: center;
+        color: black;
+    }
+    .nosotros2{
+        background-color: rgba(25,135,84,0.5);
+        display: flex;
+        letter-spacing: 3px;
+        align-items: center;
+        text-align: center;
+        color: black;
+    }
+}

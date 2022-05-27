@@ -1,0 +1,43 @@
+.body{
+    font-family: 'Arvo', serif;
+    color: #8BC34A;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    max-width: 200rem;
+    margin: auto;
+    .Header__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-family: 'Arvo', serif;
+            .Header__logo{
+                width: 250px;
+                height: 250px;
+            }
+        }
+        .header__nav{
+            ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+                li{
+                    display: inline-block;
+                    a{
+                        display: block;
+                        padding: 0.5rem 1rem;
+                        &:hover{
+                            background: rgba(25,135,84,0.5);
+                            transition: all 0.4s linear;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
